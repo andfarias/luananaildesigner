@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "next": "13.4.10",
+    "next-reveal": "^1.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swiper": "^10.0.4"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
