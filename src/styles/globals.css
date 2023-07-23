@@ -352,6 +352,9 @@ nav.show div.icon-close {
 }
 
 /* Services */
+#services {
+    background-color: var(--body-color-gray);
+}
 
 .cards.grid {
     gap: 1.5rem;
@@ -458,7 +461,6 @@ nav.show div.icon-close {
 #contact .button i,
 #contact ul li i {
     font-size: 1.5rem;
-    margin-right: 0.625rem;
 }
 
 #contact ul.grid {
