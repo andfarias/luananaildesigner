@@ -1,6 +1,48 @@
 import { useEffect, useState } from 'react';
 
 export default function Header() {
+    const handleToggleClick = () => {
+        const nav = document.querySelector('#header nav');
+        if (nav !== null) {
+            nav.classList.toggle('show');
+        }
+    };
+
+    useEffect(() => {
+        const toggleElements = document.querySelectorAll('nav .toggle');
+        for (const element of Array.from(toggleElements)) {
+            element.addEventListener('click', handleToggleClick);
+        }
+
+        return () => {
+            for (const element of Array.from(toggleElements)) {
+                element.removeEventListener('click', handleToggleClick);
+            }
+        };
+    }, []);
+
+    const handleLinkClick = () => {
+        // Substitua "nav" pelo identificador da barra de navegação que deseja fechar
+        const nav = document.querySelector('nav');
+        if (nav !== null) {
+            nav.classList.remove('show');
+        }
+    };
+
+    useEffect(() => {
+        const links = document.querySelectorAll('nav ul li a');
+        for (const link of Array.from(links)) {
+            link.addEventListener('click', handleLinkClick);
+        }
+
+        return () => {
+            // Remova os ouvintes de evento ao desmontar o componente para evitar vazamentos de memória
+            for (const link of Array.from(links)) {
+                link.removeEventListener('click', handleLinkClick);
+            }
+        };
+    }, []);
+
     const [isScrolled, setIsScrolled] = useState(false);
     useEffect(() => {
         const handleScroll = () => {
