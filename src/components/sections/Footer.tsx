@@ -6,16 +6,15 @@ export default function Footer() {
             <RevealWrapper
                 delay={200}
                 duration={500}
-                distance="200px"
                 reset={true}
                 viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}
             >
                 <div className="container grid">
                     <div className="brand">
                         <a className="logo logo-alt" href="#home">
-                            Luana<span> Nail´s</span>
+                            Luana<span> Nail&apos;s</span>
                         </a>
-                        <p>2023 Luana Nail´s.</p>
+                        <p>2023 Luana Nail&apos;s.</p>
                         <p>Todos os direitos reservados.</p>
                     </div>
                     <div className="social">

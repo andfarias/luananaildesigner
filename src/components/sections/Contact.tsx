@@ -7,7 +7,6 @@ export default function Contact() {
             <RevealWrapper
                 delay={200}
                 duration={500}
-                distance="500px"
                 reset={true}
                 viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}
             >
@@ -21,13 +20,18 @@ export default function Contact() {
                     <div className="links">
                         <ul className="grid">
                             <li>
-                                <i className="icon-phone"></i> (45) 99817-3697
+                                <i className="icon-phone mr-1"></i> (45) 99817-3697
                             </li>
                             <li>
-                                <i className="icon-map-pin"></i> R. Amauri Souza, 346
+                                <i className="icon-map-pin mr-1"></i> Avenida José Bonifácio, 1408 - Centro, São
+                                José das Palmeiras - PR, 85898-000
                             </li>
                             <li>
-                                <i className="icon-mail"></i> contato@luananails.com
+                                <i className="icon-map-pin mr-1"></i> Av. José João Muraro, 50 - Centro, Toledo -
+                                PR, 85900-260
+                            </li>
+                            <li>
+                                <i className="icon-mail mr-1"></i> luanaandradefarias567@gmail.com
                             </li>
                         </ul>
                     </div>

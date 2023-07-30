@@ -23,7 +23,7 @@ export default function BackToTopButton() {
     };
 
     return (
-        <a href="#home" className={`back-to-top ${showButton ? 'show' : ''}`} onClick={scrollToTop}>
+        <a href="#header" className={`back-to-top ${showButton ? 'show' : ''}`} onClick={scrollToTop}>
             <i className="icon-arrow-up"></i>
         </a>
     );

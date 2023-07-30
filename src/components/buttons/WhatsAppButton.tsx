@@ -21,7 +21,8 @@ export default function WhatsAppButton({ buttonText }: WhatsAppButtonProps) {
             href="https://api.whatsapp.com/send?phone=+5545998173697&text=Vamos agendar um horário!"
             onClick={handleButtonClick}
         >
-            <i className="icon-whatsapp"></i>&nbsp; {buttonText}
+            <i className="icon-whatsapp mr-1"></i>
+            {buttonText}
         </a>
     );
 }

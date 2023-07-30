@@ -10,7 +10,6 @@ export default function Home() {
             <RevealWrapper
                 delay={200}
                 duration={1000}
-                distance="200px"
                 reset={true}
                 viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}
             >

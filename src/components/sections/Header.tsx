@@ -62,7 +62,7 @@ export default function Header() {
         <header id="header" className={headerStyle}>
             <nav className="container">
                 <a className="logo" href="#">
-                    Luana<span> Nail´s</span>
+                    Luana<span> Nail&apos;s</span>
                 </a>
                 <div className="menu">
                     <ul className="grid">

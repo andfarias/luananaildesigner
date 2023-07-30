@@ -17,7 +17,6 @@ export default function Testimonials() {
             <RevealWrapper
                 delay={200}
                 duration={500}
-                distance="200px"
                 reset={true}
                 viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}
             >
@@ -38,8 +37,8 @@ export default function Testimonials() {
                                 <blockquote>
                                     <p>
                                         <span>&ldquo;</span>
-                                        Eu sou cliente da Luana há 5 anos e não troco por nada! Certamenteminhas unhas mudou muito
-                                        depois que comecei a ser cliente dela.
+                                        Eu sou cliente da Luana há 5 anos e não troco por nada! Certamenteminhas
+                                        unhas mudou muito depois que comecei a ser cliente dela.
                                     </p>
                                     <cite>
                                         <Image src={testimonial01} alt="Foto de Wanessa Souza" />
@@ -53,8 +52,8 @@ export default function Testimonials() {
                                 <blockquote>
                                     <p>
                                         <span>&ldquo;</span>
-                                        Eu sou cliente da Luana há 5 anos e não troco por nada! Certamenteminhas unhas mudou muito
-                                        depois que comecei a ser cliente dela.
+                                        Eu sou cliente da Luana há 5 anos e não troco por nada! Certamenteminhas
+                                        unhas mudou muito depois que comecei a ser cliente dela.
                                     </p>
                                     <cite>
                                         <Image src={testimonial02} alt="Foto de Alexandra Moreira" />
@@ -68,8 +67,8 @@ export default function Testimonials() {
                                 <blockquote>
                                     <p>
                                         <span>&ldquo;</span>
-                                        Eu sou cliente da Luana há 5 anos e não troco por nada! Certamenteminhas unhas mudou muito
-                                        depois que comecei a ser cliente dela.
+                                        Eu sou cliente da Luana há 5 anos e não troco por nada! Certamenteminhas
+                                        unhas mudou muito depois que comecei a ser cliente dela.
                                     </p>
                                     <cite>
                                         <Image src={testimonial03} alt="Foto de Franciele Siqueira" />
