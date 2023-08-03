@@ -1,38 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Luana Nail's - Website Readme
 
-## Getting Started
+## Sobre o Site
 
-First, run the development server:
+Luana Nail's é um site comercial que apresenta o trabalho da talentosa manicure Luana. O site foi desenvolvido por Anderson Farias utilizando as tecnologias React e Next.js, garantindo uma experiência de usuário suave e responsiva. Nele, você poderá encontrar uma variedade de fotos que exibem o incrível trabalho de Luana em design de unhas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Acesso ao Site
+
+O site Luana Nail's está hospedado na plataforma Vercel e pode ser acessado através do seguinte link: [https://luananaildesigner.vercel.app/](https://luananaildesigner.vercel.app/)
+
+## Demonstração
+
+![Demosntração 01](.github/demonstracao01.png)
+
+![Demosntração 02](.github/demonstracao02.png)
+
+## Tecnologias Utilizadas
+
+-   Next.js 13.4.10
+-   next-reveal 1.0.6
+-   React 18.2.0
+-   React-DOM 18.2.0
+-   React Photo Gallery 8.0.0
+-   Swiper 10.0.4
+
+## Estrutura do Projeto
+
+O código-fonte do site está organizado da seguinte maneira:
+
+```
+📁 /src
+  📁 /assets              # Arquivos de mídia e recursos gráficos
+  📁 /components          # Componentes reutilizáveis
+    📁 /buttons
+    📁 /sections
+  📁 /pages               # Páginas do site
+  📁 /styles              # Arquivos de estilos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Executando o Projeto Localmente
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Para executar o projeto em ambiente de desenvolvimento, siga os passos abaixo:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone o repositório do projeto:
 
-## Learn More
+```
+git clone https://github.com/seu-usuario/luana-nails.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navegue para o diretório do projeto:
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+cd luana-nails
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Instale as dependências utilizando o gerenciador de pacotes yarn:
 
-## Deploy on Vercel
+```
+yarn install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Inicie o servidor de desenvolvimento:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+yarn dev
+```
 
-### TODO
+5. O site estará disponível em `http://localhost:3000`.
 
-    - componentizar botão agende seu horário
+---
+
+Feito com 🤍 by Anderson Farias.

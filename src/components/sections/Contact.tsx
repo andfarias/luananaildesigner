@@ -23,8 +23,8 @@ export default function Contact() {
                                 <i className="icon-phone mr-1"></i> (45) 99817-3697
                             </li>
                             <li>
-                                <i className="icon-map-pin mr-1"></i> Avenida José Bonifácio, 1408 - Centro, São
-                                José das Palmeiras - PR, 85898-000
+                                <i className="icon-map-pin mr-1"></i> Av. José Bonifácio, 1408 - Centro, São José
+                                das Palmeiras - PR, 85898-000
                             </li>
                             <li>
                                 <i className="icon-map-pin mr-1"></i> Av. José João Muraro, 50 - Centro, Toledo -
