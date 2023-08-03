@@ -4,6 +4,8 @@
 
 Luana Nail's é um site comercial que apresenta o trabalho da talentosa manicure Luana. O site foi desenvolvido por Anderson Farias utilizando as tecnologias React e Next.js, garantindo uma experiência de usuário suave e responsiva. Nele, você poderá encontrar uma variedade de fotos que exibem o incrível trabalho de Luana em design de unhas.
 
+O layout do site foi baseado e inspirado no evento NLW 6 da Rockeseat, que me impulsionou a explorar novos conceitos e tecnologias.
+
 ## Acesso ao Site
 
 O site Luana Nail's está hospedado na plataforma Vercel e pode ser acessado através do seguinte link: [https://luananaildesigner.vercel.app/](https://luananaildesigner.vercel.app/)
@@ -20,7 +22,6 @@ O site Luana Nail's está hospedado na plataforma Vercel e pode ser acessado atr
 -   next-reveal 1.0.6
 -   React 18.2.0
 -   React-DOM 18.2.0
--   React Photo Gallery 8.0.0
 -   Swiper 10.0.4
 
 ## Estrutura do Projeto
